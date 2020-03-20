@@ -3,11 +3,19 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  var person ={
+    name: "Faruk Ahmad",
+    occupation: "Student"
+  }
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h3>React Tutorials and I am start react practice</h3>
+        <h3>
+          Person Name : {person.name} Person Occupation : {person.name}
+          </h3>
+        
       </header>
     </div>
   );
